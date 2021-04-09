@@ -1,0 +1,41 @@
+
+
+/* 处长、厅长公用样式 */
+
+/* 页面主体布局 */
+.bbd-container { 
+	margin: 0 auto;
+	width: 1300px;
+}
+
+/* 标题 */
+.bbd-title {
+	margin: 30px 0 10px 0;
+	padding: 0 10px;
+	border-left: 6px solid #2b9cfe;
+	font-size: 16px;
+	font-weight: bolder;
+} 
+.bbd-title-more {
+	float: right;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #666;
+	cursor: pointer;
+}
+.bbd-title-more:hover {
+	color: #409eff;
+}
+
+/* 左侧用户信息 */
+.bbd-user {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	height: 210px;
+	text-align: center;
+}
+.bbd-user-startTime {
+	text-align: left;
+	font-size: 12px;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "data-visualization",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node index.js",
+    "server": "nodemon index.js --ignore client"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "core-js": "^2.6.5",
+    "echarts": "^4.9.0",
+    "element-ui": "^2.13.2",
+    "file-saver": "^2.0.5",
+    "install": "^0.13.0",
+    "js-md5": "^0.7.3",
+    "node-sass": "^5.0.0",
+    "vue": "^2.6.10",
+    "vue-echarts": "^5.0.0-beta.0",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.4.3",
+    "wangeditor": "^3.1.1",
+    "xlsx": "^0.16.9",
+    "xlsx-style": "^0.8.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "sass-loader": "^10.1.1",
+    "script-loader": "^0.7.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
